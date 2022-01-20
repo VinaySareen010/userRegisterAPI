@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Assignment2_userLogin.Service/1.0.0": {
+        "runtime": {
+          "Assignment2_userLogin.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment2_userLogin.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

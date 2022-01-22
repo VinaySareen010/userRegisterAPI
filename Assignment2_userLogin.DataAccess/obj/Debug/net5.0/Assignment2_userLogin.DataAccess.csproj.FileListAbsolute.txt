@@ -13,3 +13,18 @@ D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin.DataAccess\
 D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
 D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\ref\Assignment2_userLogin.DataAccess.dll
 D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.deps.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\ref\Assignment2_userLogin.DataAccess.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\Assignment2_userLogin.Models.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\bin\Debug\net5.0\Assignment2_userLogin.Models.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.AssemblyInfoInputs.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.AssemblyInfo.cs
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.csproj.CopyComplete
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\ref\Assignment2_userLogin.DataAccess.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin.DataAccess\obj\Debug\net5.0\Assignment2_userLogin.DataAccess.csprojAssemblyReference.cache

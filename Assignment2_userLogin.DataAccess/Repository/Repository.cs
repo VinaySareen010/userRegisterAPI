@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,12 +24,40 @@ namespace Assignment2_userLogin.DataAccess.Repository
             dbset.Remove(objToDelete);
             return Save();
         }
-
-        public ICollection<T> GetAll()
+        public T FirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
-            return dbset.ToList();
+            IQueryable<T> query = dbset;
+            if (filter != null)
+                query = query.Where(filter);
+            if (includeProperties != null)
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
+            }
+            return query.FirstOrDefault();
         }
-
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
+        {
+            IQueryable<T> query = dbset;
+            if (filter != null)
+                query = query.Where(filter);
+            if (includeProperties != null)
+            {
+                foreach (var includeprop in includeProperties.Split(new char[] { ',' },
+                    StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeprop);
+                }
+            }
+            if (orderBy != null)
+            {
+                return orderBy(query).ToList();
+            }
+            return query.ToList();
+        }
         public T GetById(int id)
         {
             return dbset.Find(id);

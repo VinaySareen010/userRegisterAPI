@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment2_userLogin.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20220120110120_ADDfkTABLE")]
-    partial class ADDfkTABLE
+    [Migration("20220121161436_initLoad")]
+    partial class initLoad
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -147,6 +147,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ReviewsommentId")
                         .HasColumnType("int");
 
@@ -202,12 +205,17 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<int>("ProductRatingId")
                         .HasColumnType("int");
 
+                    b.Property<int>("ReviewsId")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ProductRatingId");
+
+                    b.HasIndex("ReviewsId");
 
                     b.HasIndex("UserId");
 
@@ -287,6 +295,12 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Assignment2_userLogin.Models.Models.Reviews", "Reviews")
+                        .WithMany()
+                        .HasForeignKey("ReviewsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Assignment2_RegisterAndLogin.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -294,6 +308,8 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("ProductRating");
+
+                    b.Navigation("Reviews");
 
                     b.Navigation("User");
                 });

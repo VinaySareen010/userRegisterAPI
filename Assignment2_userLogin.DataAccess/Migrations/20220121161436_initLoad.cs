@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Assignment2_userLogin.DataAccess.Migrations
 {
-    public partial class init : Migration
+    public partial class initLoad : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -103,6 +103,7 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ReviewsommentId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -165,6 +166,39 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "UserProductRatings",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    ProductRatingId = table.Column<int>(type: "int", nullable: false),
+                    ReviewsId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UserProductRatings", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_UserProductRatings_ProductRatings_ProductRatingId",
+                        column: x => x.ProductRatingId,
+                        principalTable: "ProductRatings",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_UserProductRatings_Reviews_ReviewsId",
+                        column: x => x.ReviewsId,
+                        principalTable: "Reviews",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_UserProductRatings_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Products_ProductImageId",
                 table: "Products",
@@ -199,6 +233,21 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                 name: "IX_SubCategories_CategoryId",
                 table: "SubCategories",
                 column: "CategoryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserProductRatings_ProductRatingId",
+                table: "UserProductRatings",
+                column: "ProductRatingId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserProductRatings_ReviewsId",
+                table: "UserProductRatings",
+                column: "ReviewsId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserProductRatings_UserId",
+                table: "UserProductRatings",
+                column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -207,7 +256,13 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                 name: "Products");
 
             migrationBuilder.DropTable(
+                name: "UserProductRatings");
+
+            migrationBuilder.DropTable(
                 name: "ProductImages");
+
+            migrationBuilder.DropTable(
+                name: "SubCategories");
 
             migrationBuilder.DropTable(
                 name: "ProductRatings");
@@ -216,16 +271,13 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                 name: "Reviews");
 
             migrationBuilder.DropTable(
-                name: "SubCategories");
-
-            migrationBuilder.DropTable(
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "ReviewsComments");
+                name: "Categories");
 
             migrationBuilder.DropTable(
-                name: "Categories");
+                name: "ReviewsComments");
         }
     }
 }

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2_userLogin.Utili
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2_userLogin.DataAccess", "Assignment2_userLogin.DataAccess\Assignment2_userLogin.DataAccess.csproj", "{FAF79661-04C0-4B3F-B0F7-DE3A0515D2FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2_userLogin.Models", "Assignment2_userLogin.Models\Assignment2_userLogin.Models.csproj", "{C202B9DE-A55F-411E-AA1C-B949340DC945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2_userLogin.Models", "Assignment2_userLogin.Models\Assignment2_userLogin.Models.csproj", "{C202B9DE-A55F-411E-AA1C-B949340DC945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -26,20 +26,21 @@ namespace Assignment2_userLogin.Utility.Services
                 return false;
             var saveCategory = _mapper.Map<CategoryDTO, Category>(categoryDTO);
             if (!_unitOfWork.categoryRepository.Save(saveCategory))
-                return true;
-            else
                 return false;
+            else
+                return true;
         }
-
-        public bool DeleteCategory(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public IEnumerable<CategoryDTO> GetAllCategories()
         {
-            throw new NotImplementedException();
+            var categoryDTO = _unitOfWork.categoryRepository.GetAll().Select(_mapper.Map<Category, CategoryDTO>);
+            return categoryDTO;
         }
+
+
+
+
+
+
 
         public CategoryDTO GetCategory(int id)
         {
@@ -47,6 +48,10 @@ namespace Assignment2_userLogin.Utility.Services
         }
 
         public bool UpdateCategory(CategoryDTO categoryDTO)
+        {
+            throw new NotImplementedException();
+        }
+        public bool DeleteCategory(int id)
         {
             throw new NotImplementedException();
         }

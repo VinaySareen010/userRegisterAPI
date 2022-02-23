@@ -12,7 +12,7 @@ namespace Assignment2_userLogin.DataAccess.Repository.IRepository
         IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null,//Filteration
         Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,//For Sorting/Order By
         string includeProperties = null);//For Joins
-        T FirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null);
+      //  T FirstOrDefault(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] includes);
         T GetById(int id);
         T GetByName(string name);
         bool Save(T objToSave);

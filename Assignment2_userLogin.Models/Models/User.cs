@@ -17,11 +17,13 @@ namespace Assignment2_RegisterAndLogin.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public DateTime RegisterDateTime { get; set; }
+        public bool EmailConfirm { get; set; }
         public string Image { get; set; }
-
         [NotMapped]
         public string Token { get; set; }
         public string Salt { get; set; }
-       
+        public int Count { get; set; }
+        public DateTime LockOutDateTime { get; set; }
+
     }
 }

@@ -9,5 +9,6 @@ namespace Assignment2_userLogin.DataAccess.Repository.IRepository
 {
     public interface IReviewsRepository:IRepository<Reviews>
     {
+        //IEnumerable<Reviews> GetAllReviewsBYProductId(int productId);
     }
 }

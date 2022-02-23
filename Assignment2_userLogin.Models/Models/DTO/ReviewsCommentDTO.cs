@@ -10,5 +10,6 @@ namespace Assignment2_userLogin.Models.Models.DTO
     {
         public int Id { get; set; }
         public string Comments { get; set; }
+
     }
 }

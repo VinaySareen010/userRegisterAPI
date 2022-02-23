@@ -16,5 +16,11 @@ namespace Assignment2_userLogin.DataAccess.Repository
         {
             _context = context;
         }
+
+        //public IEnumerable<ReviewsComment> GetAllReviewsBYProductId(int reviewId)
+        //{
+        //    var reviewCommentList = _context.ReviewsComments.Where(rc => rc.ReviewsId == reviewId).ToList();
+        //    return reviewCommentList;
+        //}
     }
 }

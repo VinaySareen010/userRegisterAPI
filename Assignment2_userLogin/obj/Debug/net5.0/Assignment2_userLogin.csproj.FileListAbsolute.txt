@@ -1,0 +1,240 @@
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csprojAssemblyReference.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.GeneratedMSBuildEditorConfig.editorconfig
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfoInputs.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfo.cs
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CoreCompileInputs.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cs
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.Development.json
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.json
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.exe
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.deps.json
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.json
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.dev.json
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\ref\Assignment2_userLogin.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Humanizer.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.Manifest.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.xml
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\scopedcss\bundle\Assignment2_userLogin.styles.css
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.RazorTargetAssemblyInfo.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CopyComplete
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\ref\Assignment2_userLogin.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.genruntimeconfig.cache
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.pdb
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Argon2.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Blake2.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\vinay data\Assignment\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csprojAssemblyReference.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfoInputs.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfo.cs
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CoreCompileInputs.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\ref\Assignment2_userLogin.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.exe
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.deps.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.dev.json
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\ref\Assignment2_userLogin.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.dll
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.pdb
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.Manifest.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.xml
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\scopedcss\bundle\Assignment2_userLogin.styles.css
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.RazorTargetAssemblyInfo.cache
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CopyComplete
+C:\Users\vinay\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.genruntimeconfig.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.Development.json
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\appsettings.json
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.exe
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.deps.json
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.json
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.runtimeconfig.dev.json
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\ref\Assignment2_userLogin.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Humanizer.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Argon2.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Konscious.Security.Cryptography.Blake2.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.DataAccess.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Models.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\Assignment2_userLogin.Utility.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csprojAssemblyReference.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.GeneratedMSBuildEditorConfig.editorconfig
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfoInputs.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.AssemblyInfo.cs
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CoreCompileInputs.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.Manifest.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.xml
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\scopedcss\bundle\Assignment2_userLogin.styles.css
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.RazorTargetAssemblyInfo.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.CopyComplete
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\ref\Assignment2_userLogin.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.pdb
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.genruntimeconfig.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cs

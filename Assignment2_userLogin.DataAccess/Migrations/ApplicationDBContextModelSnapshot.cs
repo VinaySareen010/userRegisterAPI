@@ -26,11 +26,20 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("EmailConfirm")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LockOutDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -72,16 +81,13 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Price")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductImageId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductRatingId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ReviewsId")
                         .HasColumnType("int");
 
                     b.Property<int>("SubCategoryId")
@@ -90,37 +96,11 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductImageId");
-
-                    b.HasIndex("ProductRatingId");
-
-                    b.HasIndex("ReviewsId");
 
                     b.HasIndex("SubCategoryId");
 
-                    b.HasIndex("UserId");
-
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductImage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductRating", b =>
@@ -138,6 +118,63 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("ProductRatings");
                 });
 
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductUserReviewProductRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductRatingId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReviewRatingId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReviewsCommentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReviewsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("ProductRatingId");
+
+                    b.HasIndex("ReviewRatingId");
+
+                    b.HasIndex("ReviewsCommentId");
+
+                    b.HasIndex("ReviewsId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ProductUserReviewProductRatings");
+                });
+
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ReviewRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<decimal>("Rating")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ReviewRatings");
+                });
+
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.Reviews", b =>
                 {
                     b.Property<int>("Id")
@@ -148,12 +185,7 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ReviewsommentId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ReviewsommentId");
 
                     b.ToTable("Reviews");
                 });
@@ -193,38 +225,22 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("SubCategories");
                 });
 
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.UserProductRating", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("ProductRatingId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ReviewsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductRatingId");
-
-                    b.HasIndex("ReviewsId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserProductRatings");
-                });
-
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.Product", b =>
                 {
-                    b.HasOne("Assignment2_userLogin.Models.Models.ProductImage", "ProductImage")
+                    b.HasOne("Assignment2_userLogin.Models.Models.SubCategory", "SubCategory")
                         .WithMany()
-                        .HasForeignKey("ProductImageId")
+                        .HasForeignKey("SubCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SubCategory");
+                });
+
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductUserReviewProductRating", b =>
+                {
+                    b.HasOne("Assignment2_userLogin.Models.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -234,15 +250,21 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment2_userLogin.Models.Models.Reviews", "Reviews")
+                    b.HasOne("Assignment2_userLogin.Models.Models.ReviewRating", "ReviewRating")
                         .WithMany()
-                        .HasForeignKey("ReviewsId")
+                        .HasForeignKey("ReviewRatingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment2_userLogin.Models.Models.SubCategory", "SubCategory")
+                    b.HasOne("Assignment2_userLogin.Models.Models.ReviewsComment", "ReviewsComment")
                         .WithMany()
-                        .HasForeignKey("SubCategoryId")
+                        .HasForeignKey("ReviewsCommentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Assignment2_userLogin.Models.Models.Reviews", "Reviews")
+                        .WithMany()
+                        .HasForeignKey("ReviewsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -252,26 +274,17 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ProductImage");
+                    b.Navigation("Product");
 
                     b.Navigation("ProductRating");
 
+                    b.Navigation("ReviewRating");
+
                     b.Navigation("Reviews");
 
-                    b.Navigation("SubCategory");
+                    b.Navigation("ReviewsComment");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.Reviews", b =>
-                {
-                    b.HasOne("Assignment2_userLogin.Models.Models.ReviewsComment", "ReviewsComment")
-                        .WithMany()
-                        .HasForeignKey("ReviewsommentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ReviewsComment");
                 });
 
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.SubCategory", b =>
@@ -283,33 +296,6 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.UserProductRating", b =>
-                {
-                    b.HasOne("Assignment2_userLogin.Models.Models.ProductRating", "ProductRating")
-                        .WithMany()
-                        .HasForeignKey("ProductRatingId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Assignment2_userLogin.Models.Models.Reviews", "Reviews")
-                        .WithMany()
-                        .HasForeignKey("ReviewsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Assignment2_RegisterAndLogin.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ProductRating");
-
-                    b.Navigation("Reviews");
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,5 +1,6 @@
 ﻿using Assignment2_RegisterAndLogin.Models;
 using Assignment2_RegisterAndLogin.Repository.IRepository;
+using Assignment2_userLogin.DataAccess.Repository;
 using Assignment2_userLogin.Models;
 
 using Microsoft.Extensions.Options;
@@ -18,12 +19,12 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Assignment2_RegisterAndLogin.Repository
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : Repository<User>,IUserRepository
     {
         private readonly ApplicationDBContext _context;
 
         private readonly AppSetting _appSetting;
-        public UserRepository(ApplicationDBContext context, IOptions<AppSetting> appSetting)
+        public UserRepository(ApplicationDBContext context, IOptions<AppSetting> appSetting):base(context)
         {
             _context = context;
             _appSetting = appSetting.Value;
@@ -34,7 +35,6 @@ namespace Assignment2_RegisterAndLogin.Repository
             var userInDb = _context.Users.FirstOrDefault(u => u.Email == userEmail && u.Password == password);
             if (userInDb == null)
                 return null;
-
             userInDb.Token = GenrateJwtToken(userInDb.UserName, userInDb.Email);
             userInDb.Password = "";
             return userInDb;
@@ -42,10 +42,6 @@ namespace Assignment2_RegisterAndLogin.Repository
 
         public User Register(User user)
         {
-
-            //string path = _webHostEnvironment.WebRootPath + " ~/image";
-            //byte[] b = System.IO.File.ReadAllBytes(path);
-            //var data = "data:image/png;base64," + Convert.ToBase64String(b);
             User objuser = new User()
             {
                 UserName = user.UserName,
@@ -79,6 +75,13 @@ namespace Assignment2_RegisterAndLogin.Repository
             return tokenHandler.WriteToken(token);
 
         }
+        public User UserNameExist(string userName)
+        {
+            var userfromDb = _context.Users.FirstOrDefault(u => u.UserName == userName);
+            if (userfromDb == null)
+                return null;
+            return userfromDb;
+        }
 
         public User Exists(string email)
         {
@@ -88,16 +91,6 @@ namespace Assignment2_RegisterAndLogin.Repository
             return userfromDb;
 
         }
-        //public static string ImageToBase64(byte[] image, System.Drawing.Imaging.ImageFormat format)
-        //{
-        //    using (MemoryStream ms = new MemoryStream())
-        //    {
-        //        //Convert Image to byte[]
-
-        //        //Convert byte[] to Base64 String
-        //        string base64String = Convert.ToBase64String(image);
-        //        return base64String;
-        //    }
-        //}
+        
     }
 }

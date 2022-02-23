@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj": {}
+    "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj": {
+    "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj",
+        "projectUniqueName": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj",
         "projectName": "Assignment2_userLogin.DataAccess",
-        "projectPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\vinay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\obj\\",
+        "projectPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Dotnet\\.nuget\\packages\\",
+        "outputPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -33,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj": {
-                "projectPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj"
+              "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj": {
+                "projectPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj"
               }
             }
           }
@@ -97,23 +98,24 @@
         }
       }
     },
-    "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj": {
+    "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj",
+        "projectUniqueName": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj",
         "projectName": "Assignment2_userLogin.Models",
-        "projectPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj",
-        "packagesPath": "C:\\Users\\vinay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Models\\obj\\",
+        "projectPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\Assignment2_userLogin.Models.csproj",
+        "packagesPath": "C:\\Users\\Dotnet\\.nuget\\packages\\",
+        "outputPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -162,23 +164,24 @@
         }
       }
     },
-    "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj": {
+    "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj",
+        "projectUniqueName": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj",
         "projectName": "Assignment2_userLogin.Utility",
-        "projectPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj",
-        "packagesPath": "C:\\Users\\vinay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\obj\\",
+        "projectPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\Assignment2_userLogin.Utility.csproj",
+        "packagesPath": "C:\\Users\\Dotnet\\.nuget\\packages\\",
+        "outputPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -191,8 +194,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\vinay\\Downloads\\Microsoft.SkypeApp_kzf8qxf38zg5c!App\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj"
+              "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj": {
+                "projectPath": "D:\\vinay data\\Assignment2_userLogin\\Assignment2_userLogin.DataAccess\\Assignment2_userLogin.DataAccess.csproj"
               }
             }
           }

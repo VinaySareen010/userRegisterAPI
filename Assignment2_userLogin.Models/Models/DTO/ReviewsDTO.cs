@@ -11,8 +11,5 @@ namespace Assignment2_userLogin.Models.Models.DTO
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public int ReviewsommentId { get; set; }
-        [ForeignKey("ReviewsommentId")]
-        public ReviewsCommentDTO ReviewsComment { get; set; }
     }
 }

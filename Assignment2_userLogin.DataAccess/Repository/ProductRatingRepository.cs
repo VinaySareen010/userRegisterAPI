@@ -16,5 +16,11 @@ namespace Assignment2_userLogin.DataAccess.Repository
         {
             _context = context;
         }
+
+        //public decimal GetProductRatingByProductId(int productId)
+        //{
+        //    var RatingCount = _context.ProductRatings.Where(pr => pr.ProductId == productId).Count();
+        //    return RatingCount;
+        //}
     }
 }

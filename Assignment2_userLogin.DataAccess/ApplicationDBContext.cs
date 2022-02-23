@@ -17,10 +17,10 @@ namespace Assignment2_userLogin.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductRating> ProductRatings { get; set; }
         public DbSet<ReviewsComment> ReviewsComments { get; set; }
         public DbSet<Reviews> Reviews { get; set; }
-        public DbSet<UserProductRating> UserProductRatings { get; set; }
+        public DbSet<ProductUserReviewProductRating> ProductUserReviewProductRatings { get; set; }
+        public DbSet<ReviewRating> ReviewRatings { get; set; }
     }
 }

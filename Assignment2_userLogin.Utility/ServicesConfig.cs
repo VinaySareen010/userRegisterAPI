@@ -1,4 +1,6 @@
-﻿using Assignment2_userLogin.Utility.Services;
+﻿using Assignment2_userLogin.Models.Models;
+using Assignment2_userLogin.Models.Models.DTO;
+using Assignment2_userLogin.Utility.Services;
 using Assignment2_userLogin.Utility.Services.IServices;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -13,8 +15,10 @@ namespace Assignment2_userLogin.Utility
     {
         public static IServiceCollection AddIManagerServices(this IServiceCollection services)
         {
-            services.AddScoped<IUserService, UserService>();
-
+            services.AddTransient<IUserService, UserService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ISubCategoryService, SubCategoryService>();
+            services.AddScoped<IProductService, ProductService>();
             return services;
         }
     }

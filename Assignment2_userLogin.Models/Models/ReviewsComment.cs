@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,5 +11,6 @@ namespace Assignment2_userLogin.Models.Models
     {
         public int Id { get; set; }
         public string Comments { get; set; }
+        
     }
 }

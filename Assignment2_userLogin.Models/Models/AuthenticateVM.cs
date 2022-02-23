@@ -7,7 +7,7 @@ namespace Assignment2_RegisterAndLogin.Models
 {
     public class AuthenticateVM
     {
-        public string UserEmail { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
     }
 }

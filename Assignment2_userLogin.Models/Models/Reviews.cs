@@ -12,9 +12,6 @@ namespace Assignment2_userLogin.Models.Models
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public int ReviewsommentId { get; set; }
-        [ForeignKey("ReviewsommentId")]
-        public ReviewsComment ReviewsComment { get; set; }
-        
+      
     }
 }

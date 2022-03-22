@@ -14,6 +14,18 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "FluentEmail.Core/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentEmail.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Core.dll": {}
+        }
+      },
       "Konscious.Security.Cryptography.Argon2/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -2548,6 +2560,19 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "FluentEmail.Core/3.0.0": {
+      "sha512": "aR81GYqWS5qATQh1300BmnRnUukgB89THcYXOHs7YGuSHc827qZtWqrGJlV8k9Jk60hlcmm/O/9Vmoaw2ytD3g==",
+      "type": "package",
+      "path": "fluentemail.core/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentemail.core.3.0.0.nupkg.sha512",
+        "fluentemail.core.nuspec",
+        "fluentemail_logo_64x64.png",
+        "lib/netstandard2.0/FluentEmail.Core.dll"
       ]
     },
     "Konscious.Security.Cryptography.Argon2/1.2.1": {
@@ -8227,6 +8252,7 @@
     "net5.0": [
       "Assignment2_userLogin.DataAccess >= 1.0.0",
       "AutoMapper >= 11.0.0",
+      "FluentEmail.Core >= 3.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5"
     ]
   },
@@ -8284,6 +8310,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "FluentEmail.Core": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Core": {
             "target": "Package",

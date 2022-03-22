@@ -214,6 +214,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"

@@ -1,14 +1,12 @@
-﻿
-using Assignment2_RegisterAndLogin.Models;
+﻿using Assignment2_RegisterAndLogin.Models;
 using Assignment2_RegisterAndLogin.Models.DTO;
 using Assignment2_userLogin.Utility;
 using Assignment2_userLogin.Utility.Services.IServices;
+using FluentEmail.Core;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
 using System;
-
 
 namespace Assignment2_UserLogin.Controllers
 {
@@ -16,7 +14,6 @@ namespace Assignment2_UserLogin.Controllers
     [ApiController]
     public class UserController : Controller
     {
-
         private readonly IUserService _userService;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IEmailSender _emailSender;
@@ -105,16 +102,16 @@ namespace Assignment2_UserLogin.Controllers
             if (userFromDb == null)
                 return NotFound();
             var registerDateTime = userFromDb.RegisterDateTime.AddMinutes(15);
-            if (registerDateTime >= DateTime.Now)
+            if (registerDateTime <= DateTime.Now)
                 return BadRequest("Verification time expired");
             if (userFromDb.EmailConfirm == true)
                 return BadRequest("User Account Already Confirmed");
             userFromDb.EmailConfirm = true;
             _userService.UpdateUser(userFromDb);
-            return Ok("User Verified Successfully");
+            return Ok();
         }
         [HttpPost("Register")]
-        public IActionResult Register([FromBody] UserDTO userDTO)
+        public IActionResult Register([FromBody] UserDTO userDTO,[FromServices] IFluentEmail singleEmail)
         {
             if (userDTO == null)
                 return BadRequest();
@@ -124,12 +121,23 @@ namespace Assignment2_UserLogin.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest);
             }
             var userData = _userService.Register(userDTO);
-            var callbackUrl = ("https://localhost:44370/api/User/ConfirmUrl?userId=" + userData.Id);
+            var callbackUrl = ("http://localhost:4200/emailConfirmation?userId=" + userData.Id);
             //var date = DateTime.Now.AddMinutes(15);
             //HttpContext.Session.SetString("value", date.ToString());
-            _emailSender.SendEmailAsync(userDTO.Email, "User Varification",
-                  $"Please confirm your account by <a href='{(callbackUrl)}'>clicking here</a>.");
+            //_emailSender.SendEmailAsync(userDTO.Email, "User Varification",
+            //      $"Please confirm your account by<a href='{(callbackUrl)}'>clicking here</a>.");
+            //SendSingleEmail(userData.Email);
+            var email = singleEmail
+          .To(userData.Email)
+          .Subject("To Verify Person for our Product Company")
+          .Body($"Please confirm your account by<a href='{(callbackUrl)}'>clicking here</a>", true);
+             email.Send();
+            //return Ok();
             return Ok(userData);
         }
+        //public IActionResult SendSingleEmail(string userEmail,IFluentEmail singleEmail)
+        //{
+           
+        //}
     }
 }

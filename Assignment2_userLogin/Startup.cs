@@ -24,6 +24,8 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -48,6 +50,23 @@ namespace Assignment2_userLogin
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddControllers();
             services.Configure<EmailSettings>(Configuration.GetSection("EmailSettings"));
+            //---Gmail
+            var from = Configuration.GetSection("Email")["From"];
+
+            var gmailSender = Configuration.GetSection("Gmail")["Sender"];
+            var gmailPassword = Configuration.GetSection("Gmail")["Password"];
+            var gmailPort = Convert.ToInt32(Configuration.GetSection("Gmail")["Port"]);
+
+            services
+                .AddFluentEmail(gmailSender, from)
+                .AddRazorRenderer()
+                .AddSmtpSender(new SmtpClient("smtp.gmail.com")
+                {
+                    UseDefaultCredentials = false,
+                    Port = gmailPort,
+                    Credentials = new NetworkCredential(gmailSender, gmailPassword),
+                    EnableSsl = true,
+                });
 
             services.AddSwaggerGen(c =>
             {

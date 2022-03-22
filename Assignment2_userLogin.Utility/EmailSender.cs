@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using FluentEmail.Core;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,10 +35,10 @@ namespace Assignment2_userLogin.Utility
                                  : email;
                 MailMessage mail = new MailMessage()
                 {
-                    From = new MailAddress(_emailSettings.UsernameEmail, "Muhammad Hassan Tariq")
+                    From = new MailAddress(_emailSettings.UsernameEmail, "Please Verify Your Email For Product Shopping Website")
                 };
                 mail.To.Add(new MailAddress(toEmail));
-                mail.CC.Add(new MailAddress(_emailSettings.CcEmail));
+                //mail.CC.Add(new MailAddress(_emailSettings.CcEmail));
 
                 mail.Subject = "Personal Management System - " + subject;
                 mail.Body = message;

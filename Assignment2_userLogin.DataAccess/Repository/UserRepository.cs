@@ -2,20 +2,13 @@
 using Assignment2_RegisterAndLogin.Repository.IRepository;
 using Assignment2_userLogin.DataAccess.Repository;
 using Assignment2_userLogin.Models;
-
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
 using System.IdentityModel.Tokens.Jwt;
-using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Assignment2_RegisterAndLogin.Repository
 {
@@ -36,7 +29,7 @@ namespace Assignment2_RegisterAndLogin.Repository
             if (userInDb == null)
                 return null;
             userInDb.Token = GenrateJwtToken(userInDb.UserName, userInDb.Email);
-            userInDb.Password = "";
+            //userInDb.Password = "";
             return userInDb;
         }
 
@@ -47,10 +40,9 @@ namespace Assignment2_RegisterAndLogin.Repository
                 UserName = user.UserName,
                 Email = user.Email,
                 Password = user.Password,
-                RegisterDateTime = DateTime.Now,
+                RegisterDateTime =user.RegisterDateTime,
                 Image = user.Image,
                 Salt = user.Salt
-
             };
 
             _context.Users.Add(user);
@@ -68,12 +60,11 @@ namespace Assignment2_RegisterAndLogin.Repository
                     new Claim(ClaimTypes.Name,name),
                     new Claim(ClaimTypes.Email,email)
                 }),
-                Expires = DateTime.UtcNow.AddHours(30),
+                Expires = DateTime.UtcNow.AddDays(25),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescritor);
             return tokenHandler.WriteToken(token);
-
         }
         public User UserNameExist(string userName)
         {

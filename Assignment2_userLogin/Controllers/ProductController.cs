@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Assignment2_userLogin.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/Product")]
     [ApiController]
     public class ProductController : Controller

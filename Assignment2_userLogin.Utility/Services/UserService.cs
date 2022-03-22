@@ -5,6 +5,7 @@ using Assignment2_RegisterAndLogin.Repository.IRepository;
 using Assignment2_userLogin.DataAccess;
 using Assignment2_userLogin.Utility.Services.IServices;
 using AutoMapper;
+using FluentEmail.Core;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -43,7 +44,6 @@ namespace Assignment2_userLogin.Utility.Services
                 if (!success)
                     return null;
                 var user = _unitOfWork.UserRepository.Login(userEmail, hpass);
-
                 var userDto = _mapper.Map<User, UserDTO>(user);
                 return userDto;
             }
@@ -61,6 +61,7 @@ namespace Assignment2_userLogin.Utility.Services
             userDTO.Password = hash;
             var userInDb = _mapper.Map<UserDTO, User>(userDTO);
             userInDb.Salt = salt;
+            userInDb.RegisterDateTime = DateTime.Now;
             var user= _unitOfWork.UserRepository.Register(userInDb);
             
             UserDTO user1 = new UserDTO()

@@ -28,6 +28,8 @@ namespace Assignment2_RegisterAndLogin.DTOMapping
             CreateMap<ReviewsComment, ReviewsCommentDTO>().ReverseMap();
             CreateMap< ProductUserReviewProductRating, ProductUserReviewProductRatingDTO>().ReverseMap();
             CreateMap<ReviewRating, ReviewRating>().ReverseMap();
+            CreateMap<ShoppingCartDTO, ShoppingCart>().ReverseMap();
+            CreateMap<DeliveryAddressDTO, DeliveryAddress>().ReverseMap();      
         }
     }
 }

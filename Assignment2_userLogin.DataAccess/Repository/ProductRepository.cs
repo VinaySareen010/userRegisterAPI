@@ -25,5 +25,20 @@ namespace Assignment2_userLogin.DataAccess.Repository
             var productList = _context.Products.Include(sc => sc.SubCategory).Where(sci => sci.SubCategoryId == subCategoryId).ToList();
             return productList;
         }
+        //public float UpdateProductRatingByProductId(int productId, float rating)
+        //{
+
+        //}
+
+
+        //public decimal GetProductRatingByProductId(int productId, float rating)
+        //{
+        //    var ratingData = _context.ProductUserReviewProductRatings.Include(r => r.ProductRating)
+        //        .Where(p => p.ProductId == productId).ToList();
+        //    var ratingSum = ratingData.Sum(d => d.ProductRating.Ratings);
+        //    var TotalProductCount = ratingData.Count();
+        //    var finalRating = ratingSum / TotalProductCount;
+        //    return finalRating;
+        //}
     }
 }

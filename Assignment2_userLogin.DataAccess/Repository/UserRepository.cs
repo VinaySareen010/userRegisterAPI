@@ -60,7 +60,7 @@ namespace Assignment2_RegisterAndLogin.Repository
                     new Claim(ClaimTypes.Name,name),
                     new Claim(ClaimTypes.Email,email)
                 }),
-                Expires = DateTime.UtcNow.AddDays(25),
+                Expires = DateTime.UtcNow.AddHours(12),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescritor);

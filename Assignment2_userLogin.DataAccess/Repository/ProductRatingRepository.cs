@@ -1,11 +1,9 @@
 ﻿using Assignment2_userLogin.DataAccess.Repository.IRepository;
 using Assignment2_userLogin.Models;
 using Assignment2_userLogin.Models.Models;
-using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment2_userLogin.DataAccess.Repository
 {
@@ -17,10 +15,15 @@ namespace Assignment2_userLogin.DataAccess.Repository
             _context = context;
         }
 
-        //public decimal GetProductRatingByProductId(int productId)
-        //{
-        //    var RatingCount = _context.ProductRatings.Where(pr => pr.ProductId == productId).Count();
-        //    return RatingCount;
-        //}
+        public IEnumerable<ProductUserReviewProductRating> GetProductRatingByProductId()
+        {
+            var ratingdata = _context.ProductUserReviewProductRatings.Include(r => r.ProductRating);/*.Where(r=>r.ProductRatingId== ProductRating.Id)*/
+
+        //var ratingsum = ratingdata.sum(d => d.productrating.ratings);
+        //var totalcount = ratingdata.count();
+        //var finalrating = ratingsum / totalcount;
+            return ratingdata;
+
+        }
     }
 }

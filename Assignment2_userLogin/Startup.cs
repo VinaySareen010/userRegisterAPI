@@ -115,9 +115,7 @@ namespace Assignment2_userLogin
                     ValidateAudience = false
                 };
             });
-
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -127,15 +125,12 @@ namespace Assignment2_userLogin
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Assignment2_userLogin v1"));
             }
-
             app.UseHttpsRedirection();
             app.UseCors("MyPolicy");
             app.UseRouting();
             app.UseSession();
             app.UseAuthentication();
-           
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

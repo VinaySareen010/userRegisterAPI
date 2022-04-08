@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment2_userLogin.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20220127111807_AddColumn")]
-    partial class AddColumn
+    [Migration("20220407140339_AddDeliveryAddress")]
+    partial class AddDeliveryAddress
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,11 +28,20 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("EmailConfirm")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LockOutDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -67,6 +76,50 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.DeliveryAddress", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("AddressType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("AlternatePhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NearBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PinCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("DeliveryAddresses");
+                });
+
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -77,8 +130,14 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Price")
                         .HasColumnType("int");
+
+                    b.Property<float>("RatingAvg")
+                        .HasColumnType("real");
 
                     b.Property<int>("SubCategoryId")
                         .HasColumnType("int");
@@ -93,26 +152,6 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductImage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductImages");
-                });
-
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductRating", b =>
                 {
                     b.Property<int>("Id")
@@ -120,8 +159,8 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Ratings")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<float>("Ratings")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -215,6 +254,31 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("ReviewsComments");
                 });
 
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ShoppingCart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ShoppingCarts");
+                });
+
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.SubCategory", b =>
                 {
                     b.Property<int>("Id")
@@ -235,6 +299,17 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("SubCategories");
                 });
 
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.DeliveryAddress", b =>
+                {
+                    b.HasOne("Assignment2_RegisterAndLogin.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.Product", b =>
                 {
                     b.HasOne("Assignment2_userLogin.Models.Models.SubCategory", "SubCategory")
@@ -244,17 +319,6 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("SubCategory");
-                });
-
-            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductImage", b =>
-                {
-                    b.HasOne("Assignment2_userLogin.Models.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.ProductUserReviewProductRating", b =>
@@ -304,6 +368,25 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Navigation("Reviews");
 
                     b.Navigation("ReviewsComment");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ShoppingCart", b =>
+                {
+                    b.HasOne("Assignment2_userLogin.Models.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Assignment2_RegisterAndLogin.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
 
                     b.Navigation("User");
                 });

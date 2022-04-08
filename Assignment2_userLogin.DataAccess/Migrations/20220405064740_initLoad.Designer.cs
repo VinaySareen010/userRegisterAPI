@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment2_userLogin.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20220221135521_addcountcolumn")]
-    partial class addcountcolumn
+    [Migration("20220405064740_initLoad")]
+    partial class initLoad
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,6 +28,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -36,6 +39,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LockOutDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -49,9 +55,6 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("count")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -89,6 +92,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
+                    b.Property<float>("RatingAvg")
+                        .HasColumnType("real");
+
                     b.Property<int>("SubCategoryId")
                         .HasColumnType("int");
 
@@ -109,8 +115,8 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Ratings")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<float>("Ratings")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -204,6 +210,31 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.ToTable("ReviewsComments");
                 });
 
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ShoppingCart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ShoppingCarts");
+                });
+
             modelBuilder.Entity("Assignment2_userLogin.Models.Models.SubCategory", b =>
                 {
                     b.Property<int>("Id")
@@ -282,6 +313,25 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Navigation("Reviews");
 
                     b.Navigation("ReviewsComment");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Assignment2_userLogin.Models.Models.ShoppingCart", b =>
+                {
+                    b.HasOne("Assignment2_userLogin.Models.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Assignment2_RegisterAndLogin.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
 
                     b.Navigation("User");
                 });

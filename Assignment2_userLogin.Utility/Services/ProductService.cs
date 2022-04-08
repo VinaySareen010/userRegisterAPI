@@ -29,12 +29,12 @@ namespace Assignment2_userLogin.Utility.Services
                 return false;
             return true;
         }
-        public bool UpdateProduct(ProductUpsertDTO productUpsertDTO)
+        public bool UpdateProduct(Product productUpsertDTO)
         {
             if (productUpsertDTO == null)
                 return false;
-            var productToUpdate = _mapper.Map<ProductUpsertDTO, Product>(productUpsertDTO);
-            if (!_unitOfWork.productRepository.Update(productToUpdate))
+            //var productToUpdate = _mapper.Map<ProductDTO, Product>(productUpsertDTO);
+            if (!_unitOfWork.productRepository.Update(productUpsertDTO))
                 return false;
             return true;
         }
@@ -77,17 +77,26 @@ namespace Assignment2_userLogin.Utility.Services
             throw new NotImplementedException();
         }
        
-        public ProductDTO GetProduct(int id)
+        public Product GetProduct(int id)
         {
-            throw new NotImplementedException();
+            var productDetails=_unitOfWork.productRepository.GetById(id);
+            return productDetails;
         }
         
-        //public decimal GetProductRatingByProductId(int productId)
+        //public IEnumerable<ProductUserReviewProductRating> GetProductRatingByProductId(int productId)
         //{
-        //   var productRating=_unitOfWork.productUserReviewProductRatingRepository.GetAll(prid=>prid.ProductId==productId,includeProperties:"ProductRating").ToList();
-        //    var rating = productRating.Sum(d => d.ProductRating.Ratings);
-        //    var finalRating=  
+        //    var productRating = _unitOfWork.productRatingRepository.GetProductRatingByProductId(productId);
+        //    return productRating;
         //}
-
+        //public IEnumerable<ProductUserReviewProductRatingDTO> ProductFullDetails()
+        //{
+        //    var productDetails = _unitOfWork.productUserReviewProductRatingRepository.ProductFullDetails().Select(_mapper.Map<ProductUserReviewProductRating, ProductUserReviewProductRatingDTO>);
+        //    return productDetails;
+        //}
+        //public decimal GetProductRatingByProductId(int productId, float rating)
+        //{
+        //    var productDetails = _unitOfWork.productUserReviewProductRatingRepository.GetProductRatingByProductId(productId,rating);
+        //    return productDetails;
+        //}
     }
 }

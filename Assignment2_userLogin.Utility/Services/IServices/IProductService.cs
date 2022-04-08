@@ -11,15 +11,16 @@ namespace Assignment2_userLogin.Utility.Services.IServices
     public interface IProductService
     {
         IEnumerable<ProductDTO> GetAllProducts();
-        //IEnumerable<ProductUserReviewProductRatingDTO> GetAllProductWithRewies(int productid);
-        IEnumerable<ProductUserReviewProductRatingDTO> GetAllProductwithDetails();
-        ProductDTO GetProduct(int id);
+        Product GetProduct(int id);
         IEnumerable<ProductDTO> GetProductsBySubCategory(int subCategoryId);
-       // decimal GetProductRatingByProductId(int productId);
         IEnumerable<ReviewsCommentDTO> GetAllReviewCommentsBYProductId(int reviewId);
-        
         bool AddProduct(ProductUpsertDTO productUpsertDTO);
-        bool UpdateProduct(ProductUpsertDTO productUpsertDTO);
+        bool UpdateProduct(Product productUpsertDTO);
         bool DeleteProduct(int id);
+        //decimal GetProductRatingByProductId(int productId, float rating);
+        //IEnumerable<ProductUserReviewProductRatingDTO> GetAllProductWithRewies(int productid);
+        //IEnumerable<ProductUserReviewProductRating> GetProductRatingByProductId();
+        //IEnumerable<ProductUserReviewProductRatingDTO> GetAllProductwithDetails();
+        //IEnumerable<ProductUserReviewProductRatingDTO> ProductFullDetails();
     }
 }

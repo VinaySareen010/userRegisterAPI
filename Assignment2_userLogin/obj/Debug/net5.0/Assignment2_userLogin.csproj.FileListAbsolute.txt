@@ -232,7 +232,6 @@ D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assig
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\ref\Assignment2_userLogin.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.pdb
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.genruntimeconfig.cache
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cs
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\FluentEmail.Core.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\FluentEmail.Razor.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\FluentEmail.Smtp.dll
@@ -268,6 +267,6 @@ D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\ru\Mi
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\bin\Debug\net5.0\ref\Assignment2_userLogin.dll
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csprojAssemblyReference.cache
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\staticwebassets\Assignment2_userLogin.StaticWebAssets.xml
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.csproj.AssemblyReference.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\refint\Assignment2_userLogin.dll
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin\obj\Debug\net5.0\Assignment2_userLogin.MvcApplicationPartsAssemblyInfo.cs

@@ -1,4 +1,5 @@
-﻿ using Assignment2_userLogin.Models.Models.DTO;
+﻿using Assignment2_userLogin.Models.Models;
+using Assignment2_userLogin.Models.Models.DTO;
 using Assignment2_userLogin.Utility.Services.IServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -55,8 +56,18 @@ namespace Assignment2_userLogin.Controllers
             var product = _productService.AddProduct(productUpsertDTO);
             return Ok(product);
         }
+        [HttpPut("UpdateRating")]
+        public IActionResult UpdateRating([FromBody]RatingVM ratingVM)
+        {
+            var productDetails = _productService.GetProduct(ratingVM.productID);
+            var claculateproductRating = (productDetails.RatingAvg) + (ratingVM.RatingAvg);
+            var productRatingToUpdate = claculateproductRating / 2;
+            productDetails.RatingAvg = productRatingToUpdate;
+            _productService.UpdateProduct(productDetails);
+            return Ok();
+        }
         [HttpPut("UpdateProduct")]
-        public IActionResult UpdateProduct([FromBody]ProductUpsertDTO productUpsertDTO)
+        public IActionResult UpdateProduct([FromBody]Product productUpsertDTO) 
         {
             if (productUpsertDTO == null)
                 return BadRequest();
@@ -74,24 +85,33 @@ namespace Assignment2_userLogin.Controllers
         [HttpGet("subCategoryId")]
         public IActionResult GetProductsBySubCategory(int subCategoryId)
         {
-            if (subCategoryId == 0)
+            if (subCategoryId == 0) 
                 return BadRequest();
             var productList = _productService.GetProductsBySubCategory(subCategoryId);
             if (productList == null)
                 return NotFound();
             return Ok(productList);
         }
-        [HttpGet("GetAllProductwithDetails")]
-        public IActionResult GetAllProductwithDetailsController()
-        {
-            var productList = _productService.GetAllProductwithDetails();
-            return Ok(productList);
-        }
-        //[HttpGet("GetAllProductWithRewies")]
-        //public IActionResult GetAllProductWithRewies(int productId)
+        //[HttpGet("GetAllProductwithDetails")]
+        //public IActionResult GetAllProductwithDetailsController()
         //{
-        //    var productList = _productService.GetAllProductWithRewies(productId);
+        //    var productList = _productService.GetAllProductwithDetails();
+        //    return Ok(productList);
+
+        //}
+        //[HttpGet("ProductFullDetails")]
+        //public IActionResult ProductFullDetails()
+        //{
+        //    var productList = _productService.ProductFullDetails();
         //    return Ok(productList);
         //}
+        //[HttpGet("GetProductRatingByProductId")]
+        //public IActionResult GetProductRatingByProductId()
+        //{
+        //    var productList = _productService.GetProductRatingByProductId();
+        //    return Ok(productList);
+        //}
+        
+        
     }
 }

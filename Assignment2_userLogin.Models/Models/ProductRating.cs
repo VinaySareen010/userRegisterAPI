@@ -11,7 +11,7 @@ namespace Assignment2_userLogin.Models.Models
     public class ProductRating
     {
         public int Id { get; set; }
-        public decimal Ratings { get; set; }
+        public float Ratings { get; set; }
        
     }
 }

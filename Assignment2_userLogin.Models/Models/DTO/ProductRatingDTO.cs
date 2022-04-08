@@ -9,6 +9,6 @@ namespace Assignment2_userLogin.Models.Models.DTO
     public class ProductRatingDTO
     {
         public int Id { get; set; }
-        public decimal Ratings { get; set; }
+        public float RatingAvg { get; set; }
     }
 }

@@ -48,12 +48,10 @@ namespace Assignment2_userLogin.DataAccess.Repository
         {
             return dbset.Find(id);
         }
-
         public T GetByName(string name)
         {
             return dbset.Find(name);
         }
-
         public bool Save(T objToSave)
         {
             dbset.Add(objToSave);
@@ -63,7 +61,6 @@ namespace Assignment2_userLogin.DataAccess.Repository
         {
             return _context.SaveChanges() == 1 ? true : false;
         }
-
         public bool Update(T objToUpdate)
         {
             dbset.Update(objToUpdate);

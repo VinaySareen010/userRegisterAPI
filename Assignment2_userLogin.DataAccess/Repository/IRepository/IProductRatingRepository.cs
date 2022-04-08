@@ -9,6 +9,6 @@ namespace Assignment2_userLogin.DataAccess.Repository.IRepository
 {
     public interface IProductRatingRepository:IRepository<ProductRating>
     {
-        //decimal GetProductRatingByProductId(int productId);
+        IEnumerable<ProductUserReviewProductRating> GetProductRatingByProductId();
     }
 }

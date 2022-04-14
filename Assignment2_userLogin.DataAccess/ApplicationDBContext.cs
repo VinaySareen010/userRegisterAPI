@@ -24,6 +24,7 @@ namespace Assignment2_userLogin.Models
         public DbSet<ReviewRating> ReviewRatings { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<DeliveryAddress> DeliveryAddresses { get; set; }
-
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<FinalOrder> FinalOrders { get; set; }
     }
 }

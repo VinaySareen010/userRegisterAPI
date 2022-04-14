@@ -1,0 +1,334 @@
+﻿++Solution 'Assignment2_userLogin' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:Assignment2_userLogin.sln
+++Assignment2_userLogin
+i:{00000000-0000-0000-0000-000000000000}:Assignment2_userLogin
+++Connected Services 
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1356
+++Dependencies
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1355
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>862
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:>861
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:>860
+++Properties
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\properties\
+++Controllers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\
+++CategoryController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\categorycontroller.cs
+++ProductController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\productcontroller.cs
+++ShoppingCartController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\shoppingcartcontroller.cs
+++SubCategoryController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\subcategorycontroller.cs
+++UserController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\usercontroller.cs
+++WeatherForecastController.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\controllers\weatherforecastcontroller.cs
+++DTOMapping
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\dtomapping\
+++images
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\
+++UploadedFiles
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadedfiles\
+++UploadFiles
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadfiles\
+++appsettings.json
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\appsettings.json
+++ConfigureSwaggeroptions.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\configureswaggeroptions.cs
+++Program.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\program.cs
+++Startup.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\startup.cs
+++WeatherForecast.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\weatherforecast.cs
+++No service dependencies discovered
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1357
+++Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:analyzers
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:analyzers
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:analyzers
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:analyzers
+++Frameworks
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:frameworks
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:frameworks
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:frameworks
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:frameworks
+++Packages
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:packages
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:packages
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:packages
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:packages
+++Projects
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:projects
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:projects
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:projects
+++launchSettings.json
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\properties\launchsettings.json
+++MappingProfile.cs
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\dtomapping\mappingprofile.cs
+++products
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\
+++7d7bdd73-a723-4990-a718-ac7111bfa470
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadedfiles\7d7bdd73-a723-4990-a718-ac7111bfa470
+++b3eb775f-f2ef-4ed0-9582-b57ec5ab1265
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadedfiles\b3eb775f-f2ef-4ed0-9582-b57ec5ab1265
+++d838ffa5-2b76-460b-93f5-cccf903a4241
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadedfiles\d838ffa5-2b76-460b-93f5-cccf903a4241
+++aec0429a-6f6e-41be-8e93-1c26dc93916a.png
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadfiles\aec0429a-6f6e-41be-8e93-1c26dc93916a.png
+++b33dbeae-fc8f-4ea8-bf7c-2bdc478603a5.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadfiles\b33dbeae-fc8f-4ea8-bf7c-2bdc478603a5.jpg
+++c528e0c8-5b29-4f46-9322-d0d32b388b7a.png
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\uploadfiles\c528e0c8-5b29-4f46-9322-d0d32b388b7a.png
+++appsettings.Development.json
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\users\dotnet\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\users\dotnet\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:c:\users\dotnet\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:c:\users\dotnet\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:c:\users\dotnet\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\microsoft.netcore.app
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\microsoft.netcore.app
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\microsoft.netcore.app
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\microsoft.netcore.app
+++AutoMapper (11.0.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1413
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:>1394
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1404
+++FluentEmail.Core (3.0.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1410
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:>1390
+++FluentEmail.Razor (3.0.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1416
+++FluentEmail.Smtp (3.0.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1407
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.13)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1414
+++Microsoft.AspNetCore.Session (2.2.0)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1412
+++Microsoft.EntityFrameworkCore (5.0.13)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1400
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1388
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.13)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1402
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1391
+++Microsoft.EntityFrameworkCore.Tools (5.0.13)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1415
+++Swashbuckle.AspNetCore (5.6.3)
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:>1405
+++Assignment2_userLogin.DataAccess
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\bin\debug\net5.0\assignment2_userlogin.dataaccess.dll
+i:{00000000-0000-0000-0000-000000000000}:Assignment2_userLogin.DataAccess
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\bin\debug\net5.0\assignment2_userlogin.dataaccess.dll
+++Assignment2_userLogin.Models
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\bin\debug\net5.0\assignment2_userlogin.models.dll
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\bin\debug\net5.0\assignment2_userlogin.models.dll
+i:{00000000-0000-0000-0000-000000000000}:Assignment2_userLogin.Models
+++Assignment2_userLogin.Utility
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\bin\debug\net5.0\assignment2_userlogin.utility.dll
+i:{00000000-0000-0000-0000-000000000000}:Assignment2_userLogin.Utility
+++034ce6ce-1b5f-4d57-a9c2-411de7b2f250.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\034ce6ce-1b5f-4d57-a9c2-411de7b2f250.jpg
+++06003d4b-2ae1-48e0-b321-05b5506bf5bb.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\06003d4b-2ae1-48e0-b321-05b5506bf5bb.jpg
+++1f55c0c1-8bf6-418c-833f-87edf3c89ab3.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\1f55c0c1-8bf6-418c-833f-87edf3c89ab3.jpg
+++6dd9a618-8931-4545-94b7-2f4918294454.png
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\6dd9a618-8931-4545-94b7-2f4918294454.png
+++86cef73b-8c2e-4c55-a8ae-b7bb7338bd7a.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\86cef73b-8c2e-4c55-a8ae-b7bb7338bd7a.jpg
+++979c6c4f-edf9-495e-bff0-dbe0eae7f41d.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\979c6c4f-edf9-495e-bff0-dbe0eae7f41d.jpg
+++9cc74030-0801-4185-8ff4-14c4ced913c7.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\9cc74030-0801-4185-8ff4-14c4ced913c7.jpg
+++ed819c5d-73f0-467c-a3f8-5e8e3c512031.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\ed819c5d-73f0-467c-a3f8-5e8e3c512031.jpg
+++f4eacd49-bae8-435e-932c-fa09139dd28f.jpg
+i:{a69c4c58-4200-4218-a85a-b605290502ae}:d:\vinay data\assignment2_userlogin\assignment2_userlogin\images\products\f4eacd49-bae8-435e-932c-fa09139dd28f.jpg
+++Migrations
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\
+++Repository
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\
+++ApplicationDBContext.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\applicationdbcontext.cs
+++AppSetting.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\appsetting.cs
+++HashingPassword.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\hashingpassword.cs
+++20220405064740_initLoad.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\20220405064740_initload.cs
+++20220407140339_AddDeliveryAddress.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\20220407140339_adddeliveryaddress.cs
+++ApplicationDBContextModelSnapshot.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\applicationdbcontextmodelsnapshot.cs
+++IRepository
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\
+++CategoryRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\categoryrepository.cs
+++ProductRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\productratingrepository.cs
+++ProductRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\productrepository.cs
+++ProductUserReviewProductRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\productuserreviewproductratingrepository.cs
+++Repository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\repository.cs
+++ReviewRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\reviewratingrepository.cs
+++ReviewsCommentRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\reviewscommentrepository.cs
+++ReviewsRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\reviewsrepository.cs
+++SubCategoryRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\subcategoryrepository.cs
+++UnitOfWork.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\unitofwork.cs
+++UserRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\userrepository.cs
+++Konscious.Security.Cryptography.Argon2 (1.2.1)
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1399
+++Microsoft.EntityFrameworkCore.Relational (5.0.13)
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1401
+++Microsoft.Extensions.Options (5.0.0)
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1403
+++Swashbuckle.AspNetCore.SwaggerGen (5.6.3)
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1396
+++System.IdentityModel.Tokens.Jwt (6.15.0)
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:>1393
+++20220405064740_initLoad.Designer.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\20220405064740_initload.designer.cs
+++20220407140339_AddDeliveryAddress.Designer.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\migrations\20220407140339_adddeliveryaddress.designer.cs
+++ICategoryRepository.cs.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\icategoryrepository.cs.cs
+++IProductRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\iproductratingrepository.cs
+++IProductRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\iproductrepository.cs
+++IProductUserReviewProductRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\iproductuserreviewproductratingrepository.cs
+++IRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\irepository.cs
+++IReviewRatingRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\ireviewratingrepository.cs
+++IReviewsCommentRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\ireviewscommentrepository.cs
+++IReviewsRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\ireviewsrepository.cs
+++ISubCategoryRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\isubcategoryrepository.cs
+++IUnitOfWork.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\iunitofwork.cs
+++IUserRepository.cs
+i:{faf79661-04c0-4b3f-b0f7-de3a0515d2fb}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.dataaccess\repository\irepository\iuserrepository.cs
+++Models
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\
+++DTO
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\
+++AuthenticateVM.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\authenticatevm.cs
+++Category.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\category.cs
+++DeliveryAddress.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\deliveryaddress.cs
+++Product.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\product.cs
+++ProductRating.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\productrating.cs
+++ProductUserReviewProductRating.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\productuserreviewproductrating.cs
+++ReviewRating.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\reviewrating.cs
+++Reviews.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\reviews.cs
+++ReviewsComment.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\reviewscomment.cs
+++ShoppingCart.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\shoppingcart.cs
+++SubCategory.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\subcategory.cs
+++User.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\user.cs
+++Microsoft.AspNetCore.Http.Features (5.0.13)
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:>1385
+++CategoryDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\categorydto.cs
+++DeliveryAddressDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\deliveryaddressdto.cs
+++ProductDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\productdto.cs
+++ProductRatingDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\productratingdto.cs
+++ProductUpsertDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\productupsertdto.cs
+++ProductUserReviewProductRatingDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\productuserreviewproductratingdto.cs
+++RatingVM.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\ratingvm.cs
+++ReviewsCommentDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\reviewscommentdto.cs
+++ReviewsDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\reviewsdto.cs
+++ShoppingCartDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\shoppingcartdto.cs
+++SubCategoryDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\subcategorydto.cs
+++SubCategoryUpsertDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\subcategoryupsertdto.cs
+++UserDTO.cs
+i:{c202b9de-a55f-411e-aa1c-b949340dc945}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.models\models\dto\userdto.cs
+++Services
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\
+++EmailSender.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\emailsender.cs
+++EmailSettings.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\emailsettings.cs
+++IEmailSender.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\iemailsender.cs
+++ServicesConfig.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\servicesconfig.cs
+++IServices
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\iservices\
+++CategoryService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\categoryservice.cs
+++ProductService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\productservice.cs
+++SubCategoryService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\subcategoryservice.cs
+++UserService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\userservice.cs
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:>1397
+++ICategoryService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\iservices\icategoryservice.cs
+++IProductService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\iservices\iproductservice.cs
+++ISubCategoryService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\iservices\isubcategoryservice.cs
+++IUserService.cs
+i:{e080318c-a41e-450c-a9c3-8cdaa4999207}:d:\vinay data\assignment2_userlogin\assignment2_userlogin.utility\services\iservices\iuserservice.cs

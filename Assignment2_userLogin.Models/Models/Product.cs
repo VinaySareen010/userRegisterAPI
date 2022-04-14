@@ -17,6 +17,8 @@ namespace Assignment2_userLogin.Models.Models
         public string Image { get; set; }
         public float RatingAvg { get; set; }
         public int Price { get; set; }
+        public string ProductCompany { get; set; }
+        public string ProductComapnyAddress { get; set; }
         public int SubCategoryId { get; set; }
         [ForeignKey("SubCategoryId")]
         public SubCategory SubCategory { get; set; }

@@ -54,9 +54,9 @@ namespace Assignment2_userLogin.Controllers
         public IActionResult saveAddress([FromBody] DeliveryAddressDTO DeliveryAddressDTO)
         {
             var saveProduct = _mapper.Map<DeliveryAddressDTO, DeliveryAddress>(DeliveryAddressDTO);
-             _context.DeliveryAddresses.Add(saveProduct);
+            var Data = _context.DeliveryAddresses.Add(saveProduct);
              _context.SaveChanges();
-            return Ok();
-        }
+            return Ok(Data.Entity);
+        }   
     }
 }

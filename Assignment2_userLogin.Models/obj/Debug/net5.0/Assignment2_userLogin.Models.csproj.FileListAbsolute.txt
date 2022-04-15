@@ -32,5 +32,5 @@ D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\Assignment2_userLogin.Models.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\ref\Assignment2_userLogin.Models.dll
 D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\Assignment2_userLogin.Models.pdb
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\bin\Debug\net5.0\ref\Assignment2_userLogin.Models.dll
-D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\Assignment2_userLogin.Models.csprojAssemblyReference.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\Assignment2_userLogin.Models.csproj.AssemblyReference.cache
+D:\vinay data\Assignment2_userLogin\Assignment2_userLogin.Models\obj\Debug\net5.0\refint\Assignment2_userLogin.Models.dll

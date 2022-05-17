@@ -22,6 +22,7 @@ namespace Assignment2_userLogin.Models.Models
         public int SubCategoryId { get; set; }
         [ForeignKey("SubCategoryId")]
         public SubCategory SubCategory { get; set; }
-       
+        public int Disount { get; set; }
+
     }
 }

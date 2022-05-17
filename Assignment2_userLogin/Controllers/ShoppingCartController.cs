@@ -5,6 +5,8 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Assignment2_userLogin.Controllers
@@ -58,5 +60,64 @@ namespace Assignment2_userLogin.Controllers
              _context.SaveChanges();
             return Ok(Data.Entity);
         }   
+        [HttpPost("SaveOrderDetails")]
+        public IActionResult SaveOrderDetails([FromBody]OrderDetailsDto orderDetailsDto)
+        {
+            orderDetailsDto.OrderDate = DateTime.Now;
+            orderDetailsDto.ShippingDate = DateTime.Now.AddDays(7);
+            var orderDetail=_mapper.Map<OrderDetailsDto, OrderDetail>(orderDetailsDto);
+            var saveOrder = _context.OrderDetails.Add(orderDetail); 
+            _context.SaveChanges();
+            
+            return Ok(saveOrder.Entity);
+        }
+        [HttpPost("SaveFinalOrder")]
+        public IActionResult SaveFinalOrder(int userId, [FromBody] List<FinalOrderDTO> finalOrderDTOs)
+        {
+            var finalOrders = _mapper.Map<List<FinalOrderDTO>, List<FinalOrder>>(finalOrderDTOs);
+            _context.FinalOrders.AddRange(finalOrders);
+            _context.SaveChanges();
+            RemoveShopppingCart(userId);
+            return Ok();
+        }   
+        [HttpDelete("RemoveShoppingCartData")]
+        public IActionResult RemoveShoppingCartData(int shoppingCartId)
+        {
+            var result = _context.ShoppingCarts.Find(shoppingCartId);
+            _context.ShoppingCarts.Remove(result);
+            _context.SaveChanges();
+            return Ok();
+        }
+        [NonAction]
+        public IActionResult RemoveShopppingCart(int userId)
+        {
+            var results= _context.ShoppingCarts.Where(x => x.UserId == userId).ToList();
+            _context.ShoppingCarts.RemoveRange(results);
+            _context.SaveChanges();
+            return Ok();
+        }
+        [HttpGet("FinalOrderDeatils")]
+        public IActionResult FinalOrderDeatils(int userId)
+        {
+            var finalOrderDeatils = _context.FinalOrders.Include(p => p.Product)
+                .Include(xp => xp.OrderDetail.DeliveryAddress.User).Where(p => p.OrderDetail.DeliveryAddress.UserId == userId).ToList();
+             
+            return Ok(finalOrderDeatils);    
+        }
+        [HttpGet("OrderDeatils")]
+        public IActionResult OrderDeatils(int userId)
+        {
+            var orderDetails = _context.OrderDetails.Include(x => x.DeliveryAddress)
+                .Include(xp => xp.DeliveryAddress.User).FirstOrDefault(p => p.DeliveryAddress.UserId == userId);
+            return Ok(orderDetails);
+        }
+        [HttpPost("SaveShoppingCartRange")]
+        public IActionResult SaveShoppingCartRange(int userId,[FromBody] List<ShoppingCartDTO> shoppingCartDTO)
+        {
+            var finalOrders = _mapper.Map<List<ShoppingCartDTO>, List<ShoppingCart>>(shoppingCartDTO);
+            _context.ShoppingCarts.AddRange(finalOrders);   
+            _context.SaveChanges();
+            return Ok();
+        }
     }
 }

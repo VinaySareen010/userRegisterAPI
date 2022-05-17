@@ -29,7 +29,9 @@ namespace Assignment2_RegisterAndLogin.DTOMapping
             CreateMap< ProductUserReviewProductRating, ProductUserReviewProductRatingDTO>().ReverseMap();
             CreateMap<ReviewRating, ReviewRating>().ReverseMap();
             CreateMap<ShoppingCartDTO, ShoppingCart>().ReverseMap();
-            CreateMap<DeliveryAddressDTO, DeliveryAddress>().ReverseMap();      
+            CreateMap<DeliveryAddressDTO, DeliveryAddress>().ReverseMap();
+            CreateMap<OrderDetailsDto, OrderDetail>().ReverseMap();
+            CreateMap<FinalOrder,FinalOrderDTO>().ReverseMap();
         }
     }
 }

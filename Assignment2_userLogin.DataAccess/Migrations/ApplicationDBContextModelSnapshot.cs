@@ -131,18 +131,12 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                     b.Property<int>("OrderDetailId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrderDetailsId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TotalPrice")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderDetailsId");
+                    b.HasIndex("OrderDetailId");
 
                     b.HasIndex("ProductId");
 
@@ -193,6 +187,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Disount")
+                        .HasColumnType("int");
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
@@ -384,7 +381,9 @@ namespace Assignment2_userLogin.DataAccess.Migrations
                 {
                     b.HasOne("Assignment2_userLogin.Models.Models.OrderDetail", "OrderDetail")
                         .WithMany()
-                        .HasForeignKey("OrderDetailsId");
+                        .HasForeignKey("OrderDetailId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Assignment2_userLogin.Models.Models.Product", "Product")
                         .WithMany()
